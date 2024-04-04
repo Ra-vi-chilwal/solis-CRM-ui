@@ -1,0 +1,270 @@
+// Here you can add other styles
+
+// Dashboard LeadChat Css
+.leadchart{
+    // background-color: rgb(184, 187, 189);
+    border: 1px solid rgba(12, 14, 157, 0.564);
+    width: 90%;
+    height: 70%;
+    border-radius: 10px;
+    // padding-top: 1rem;
+}
+.lead-status{
+  padding: 10px 0  5px 5px !important;
+  border-radius: 7px 7px 0 0 !important;
+}
+.piechart{
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 8px;
+}
+.dashboard-chart{
+    display: flex;
+    gap: 10px;
+    padding: 1rem;
+    // border: 1px solid rgb(206, 206, 206);
+}
+
+/* CSS for the marquee container */
+.marquee-container {
+    max-height: 25rem; /* Adjust the max height as needed */
+    overflow: hidden;
+  }
+  
+  /* CSS for the marquee list items */
+  #marquee-list {
+    animation: marquee 100s linear infinite;
+  }
+  
+  /* Keyframes for the marquee animation */
+  @keyframes marquee {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-100%);
+    }
+  }
+  
+  .green-bottom-border{
+    border-bottom: 4px solid green
+  }
+  .red-bottom-border{
+    border-bottom: 4px solid red;
+    // border: 1px solid rgb(193, 192, 192);
+    background-color: orange;
+  
+  }
+  .yellow-bottom-border{
+    border-bottom: 4px solid orange
+  }
+  .blue-bottom-border{
+    border-bottom: 4px solid blue
+  }
+.notes-button{
+  color:white;
+}
+.notes-button button{
+  color: white;
+  height: 40px;
+  width: 40px;
+  background-color: green;
+  font-size: 25px; 
+  border-radius:50% ;
+}
+
+.noteaddbutton{
+  background: rgb(60, 75, 100);
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    width: 50px;
+    height: 47px;
+    border-radius: 50% !important;
+    font-size: 1rem !important;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+
+a{
+  text-decoration: none !important;
+}
+
+
+  // App Header css
+
+  .header-link{
+    color: darkblue;
+    font-size: 12px;
+  }
+  .header-link:hover{
+    background-color:white;
+    color: blue !important;
+    border-radius: 10px;
+  }
+  .logout-btn{
+    background-color: darkblue;
+    color: white;
+  }
+  .customize-col{
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    z-index: 2;
+    flex-direction: column;
+    align-items: end;
+    right:6rem;
+  }
+  .thin-progress-bar {
+    height: 4px; /* Adjust the height to make the progress bar thinner */
+  }
+  
+.custom-table{
+  display: flex;
+    justify-content: end;
+    flex-direction: column;
+    align-items: end;
+    position: absolute;
+    z-index: 1;
+    top: 6rem; 
+    right: 1.5rem;
+     
+}
+
+  .table-customize-checkboxes{
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    font-weight: 600  ;
+    background: rgb(254, 254, 254);
+    padding: 1rem;
+    // color: white;
+    width: 11rem;   
+    box-shadow: 2px 2px 13px rgba(0, 0, 0, 0.1);
+
+    }
+
+
+
+    .manualdata-table{
+      // background-color: ;
+      box-shadow: 2px 2px 13px rgba(0, 0, 0, 0.1);
+      padding: 1rem;
+    }
+.blue-header{
+  background-color: aliceblue;
+}
+.role-table-filter{
+  border: 1px solid lightgrey;
+  // padding: 1rem;
+  border-radius: 4px;
+  margin-right: 1rem  ;
+}
+.nav-icon {
+  // color: #1266f1 !important;
+  color: black !important;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+.dashboard-navbar{
+  // background-color: #1a73e8;
+  background-color: #edf0f4;
+}
+.dashboard-navbar-items{
+  // background-color: #1a73e8;
+  background-color: #001b3e;
+  font-size: 14px;
+  font-weight: 400;
+  display: flex;
+  gap: 2rem;
+  color: white;
+  // padding: 1rem 0 1rem 2rem;
+  top: 5rem;
+  width: 100%;
+  position: sticky;
+  z-index: 1029;
+  top: 4rem;
+
+}
+
+
+// Meetings CSS  
+
+.meeting-sidebar{
+  width: 300px;
+  border: 1px solid rgb(212, 212, 212);
+  height: 80vh;
+  overflow: scroll;
+}
+.meet-container{
+  border-bottom: 1px solid lightgrey ;
+  
+}
+.meeting-mainbar{
+  // border: 1px solid grey;
+  width: 70%;
+}
+
+.nav-group.show{
+  background-color: white !important;
+}
+.data-table-extensions-filter{
+  border: 1px solid lightgrey;
+  border-radius: 20px;
+text-align: center; 
+padding: 5px 0 0 6px;
+}
+.thin-progress-bar{
+  height: 10px !important ;
+}
+// .text-center{
+//   padding: 7px !important;
+// }
+.tableItems td{
+  padding: 0 !important;
+}
+.table-responsive tbody{
+    border: none !important
+}
+.card-text{
+  font-size: 12px;
+}
+
+.card-body{
+  display: block !important;
+  padding: 10px 10px 0px 10px !important;
+}
+.sidebar{
+  width: 14rem;
+}
+.sidebar:not(.sidebar-end) ~ * {
+  --cui-sidebar-occupy-start: 14rem;
+}
+
+.input-notes input:focus{
+  border:none !important
+}
+
+
+.custom-textarea {
+  // border: 1px solid #ccc; /* Add a default border */
+  transition: border-color 0.2s; /* Add a smooth transition effect */
+}
+
+.custom-textarea:focus {
+  border: 1px solid red !important; /* Remove the border when textarea is focused */
+}
+
+
+
+
+.t-body{
+  border-top: none !important;
+}

@@ -1,0 +1,4 @@
+export const USER_INFO_REQUEST = "USER_INFO_REQUEST";
+export const USER_INFO_SUCCESS = "USER_INFO_SUCCESS";
+export const USER_INFO_FAIL = "USER_INFO_FAIL";
+export const USER_LOG_OUT = "USER_LOG_OUT";
